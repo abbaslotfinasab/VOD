@@ -10,7 +10,7 @@ import javax.inject.Inject
 class MovieRepoImpl @Inject constructor(private val service: Service ,private val movieMapper: dagger.Lazy<MovieMapper>) : MovieRepo {
 
     override fun getMovie(): Single<MovieModel> {
-        return service.getMovieModel().map {
+        return service.getMovie().map {
             movieMapper.get().toMapper(it)
         }
     }

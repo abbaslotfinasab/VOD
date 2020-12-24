@@ -4,6 +4,6 @@ data class SeasonModel (
 
     var id:Int?=0,
     var title:String?=null,
-    var episodeModel:List<EpisodeModel>
+    var episodeModel:List<EpisodeModel>?
 
 )

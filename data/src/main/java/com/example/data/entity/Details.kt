@@ -1,50 +1,81 @@
 package com.example.data.entity
 
 import com.example.domain.model.CastModel
+import com.example.domain.model.CommentModel
 import com.example.domain.model.SeasonModel
 import com.google.gson.annotations.Expose
 import com.google.gson.annotations.SerializedName
 
 data class Details (
 
-    @SerializedName("description")
+    @SerializedName("id")
     @Expose
     var id:Int?=0,
+
+    @SerializedName("background")
+    @Expose
+    var background:String?=null,
 
     @SerializedName("description")
     @Expose
     var description:String?=null,
 
-    @SerializedName("poster")
+    @SerializedName("rate")
     @Expose
-    var poster:String?=null,
+    var rate:Int?=0,
 
-    @SerializedName("date")
+    @SerializedName("view")
     @Expose
-    var date:String?=null,
+    var view:Int?=0,
+
+    @SerializedName("like")
+    @Expose
+    var like:Int?=0,
+
+    @SerializedName("year")
+    @Expose
+    var year:Int?=0,
 
     @SerializedName("duration")
     @Expose
-    var duration:String?=null,
+    var time: Int?=0,
+
+    @SerializedName("number")
+    @Expose
+    var number: Int?=0,
+
+    @SerializedName("genre")
+    @Expose
+    var genre:String?=null,
 
     @SerializedName("day")
     @Expose
     var day:String?=null,
 
-    @SerializedName("tv")
+    @SerializedName("channel")
     @Expose
     var channel:String?=null,
 
-    @SerializedName("cast")
+    @SerializedName("director")
     @Expose
-    var cast:List<CastModel>?=null,
+    var director:String?=null,
 
-    @SerializedName("genre")
+    @SerializedName("country")
     @Expose
-    var genre:List<GenreModel>?=null,
+    var country:String?=null,
+
+    @SerializedName("comment")
+    @Expose
+    var comment:List<CommentModel>?=null,
 
     @SerializedName("season")
     @Expose
-    var season:List<SeasonModel>?=null
+    var season:List<SeasonModel>?=null,
+
+    @SerializedName("cast")
+    @Expose
+    var cast:List<CastModel>?=null
+
+
 
 )

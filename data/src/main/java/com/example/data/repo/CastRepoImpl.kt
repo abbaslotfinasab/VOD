@@ -10,7 +10,7 @@ import javax.inject.Inject
 class CastRepoImpl @Inject constructor(private val service:Service , private val castMapper: dagger.Lazy<CastMapper>) : CastRepo {
 
     override fun getCast() : Single<CastModel> {
-        return service.getCastModel().map {
+        return service.getCast().map {
           castMapper.get().toMapper(it)
         }
 

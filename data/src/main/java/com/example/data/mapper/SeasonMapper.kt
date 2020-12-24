@@ -10,8 +10,8 @@ class SeasonMapper @Inject constructor() {
 
         return SeasonModel(
             season.id ?:0,
-            season.number ?: 0,
-            season.episode ?:0
+            season.title ?: "",
+            season.episode ?: emptyList()
         )
     }
 }

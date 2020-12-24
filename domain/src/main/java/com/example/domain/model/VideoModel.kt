@@ -4,6 +4,6 @@ data class VideoModel (
 
     var id:Int?=0,
     var url:String?=null,
-    var subtitle:List<SubtitleModel>
+    var subtitle:List<SubtitleModel>?
 
 )

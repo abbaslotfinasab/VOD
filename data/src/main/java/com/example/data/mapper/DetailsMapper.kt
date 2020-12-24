@@ -12,13 +12,23 @@ class DetailsMapper @Inject constructor() {
 
             details.id?:0,
             details.description ?: "",
-            details.date ?: "",
-            details.duration ?: "",
-            details.day ?: "",
-            details.channel ?: "",
+            details.description ?: "",
+            details.rate ?: 0,
+            details.view ?: 0,
+            details.like ?: 0,
+            details.year?: 0,
+            details.time?: 0,
+            details.number?: 0,
+            details.genre?: "",
+            details.day?: "",
+            details.channel?: "",
+            details.director?: "",
+            details.country?: "",
+            details.comment?: emptyList(),
             details.season?: emptyList(),
-            details.genre?: emptyList(),
             details.cast?: emptyList()
+
+
         )
     }
 }

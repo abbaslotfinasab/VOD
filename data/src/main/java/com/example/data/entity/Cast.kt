@@ -13,15 +13,12 @@ data class Cast (
     @Expose
     var actor:String?=null,
 
-    @SerializedName("director")
+    @SerializedName("role")
     @Expose
-    var director:String?=null,
+    var role:String?=null,
 
     @SerializedName("photo")
     @Expose
-    var photo:String?=null,
+    var photo:String?=null
 
-    @SerializedName("role")
-    @Expose
-    var role:String?=null
 )

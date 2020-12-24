@@ -7,16 +7,24 @@ import retrofit2.http.GET
 interface Service {
 
     @GET("/Cast/")
-    fun getCastModel(): Single<Cast>
+    fun getCast(): Single<Cast>
+    @GET("/Comment/")
+    fun getComment(): Single<Comment>
     @GET("/Data/")
-    fun getDataModel(): Single<Data>
+    fun getData(): Single<Data>
     @GET("/Details/")
-    fun getDetailsModel(): Single<Details>
-    @GET("/Genre/")
-    fun getGenreModel(): Single<Genre>
+    fun getDetails(): Single<Details>
+    @GET("/Download/")
+    fun getDownload(): Single<Download>
     @GET("/Movie/")
-    fun getMovieModel(): Single<Movie>
+    fun getMovie(): Single<Movie>
+    @GET("/Episode/")
+    fun getEpisode(): Single<Episode>
     @GET("/Season/")
-    fun getSeasonModel(): Single<Season>
+    fun getSeason(): Single<Season>
+    @GET("/Subtitle/")
+    fun getSubtitle(): Single<Subtitle>
+    @GET("/Video/")
+    fun getVideo(): Single<Video>
 
 }

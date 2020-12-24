@@ -10,7 +10,7 @@ import javax.inject.Inject
 class DataRepoImpl @Inject constructor(private val service: Service ,private val dataMapper: dagger.Lazy<DataMapper>  ):DataRepo {
 
     override fun getData() : Single<DataModel>{
-        return service.getDataModel().map {
+        return service.getData().map {
             dataMapper.get().toMapper(it)
         }
     }

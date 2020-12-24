@@ -10,7 +10,7 @@ import javax.inject.Inject
 class SeasonRepoImpl @Inject constructor(private val service: Service , private val seasonMapper:dagger.Lazy<SeasonMapper>) : SeasonRepo {
 
     override fun getSeason(): Single<SeasonModel> {
-        return service.getSeasonModel().map {
+        return service.getSeason().map {
             seasonMapper.get().toMapper(it)
         }
     }

@@ -18,11 +18,7 @@ data class Movie (
     @Expose
     var name:String?=null,
 
-    @SerializedName("sub")
-    @Expose
-    var sub:String?=null,
-
-    @SerializedName("movieDetails")
+    @SerializedName("details")
     @Expose
     var details:List<DetailsModel>?=null
 

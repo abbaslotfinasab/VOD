@@ -11,9 +11,8 @@ class CastMapper @Inject constructor() {
 
             cast.id ?:0,
             cast.actor?: "",
-            cast.director ?: "",
-            cast.photo ?: "",
-            cast.role?:""
+            cast.role ?: "",
+            cast.photo ?: ""
         )
 
     }

@@ -1,10 +1,9 @@
 package com.example.data.entity
 
-import com.example.domain.model.EpisodeModel
 import com.google.gson.annotations.Expose
 import com.google.gson.annotations.SerializedName
 
-data class Season (
+data class Download(
 
     @SerializedName("id")
     @Expose
@@ -14,7 +13,22 @@ data class Season (
     @Expose
     var title:String?=null,
 
-    @SerializedName("episode")
+    @SerializedName("path")
     @Expose
-    var episode:List<EpisodeModel>?
+    var path:String?=null,
+
+    @SerializedName("type")
+    @Expose
+    var type:String?=null,
+
+    @SerializedName("size")
+    @Expose
+    var size:Int?=0
+
+
+
+
+
+
+
 )
