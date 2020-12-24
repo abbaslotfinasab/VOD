@@ -1,0 +1,76 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\abbas\\AndroidStudioProjects\\Oppa\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\abbas\\.gradle\\caches\\transforms-2\\files-2.1\\c219d596d0d76214613e5b9c7b904ad3\\lifecycle-runtime-2.3.0-alpha01\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "42",
+                        "endOffsets": "93"
+                    },
+                    "to": {
+                        "startLines": "763",
+                        "startColumns": "4",
+                        "startOffsets": "46354",
+                        "endColumns": "42",
+                        "endOffsets": "46392"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\abbas\\.gradle\\caches\\transforms-2\\files-2.1\\000ad8ee5f29acfc65944a32f3753966\\jetified-viewpager2-1.0.0\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "24",
+                        "endOffsets": "160"
+                    },
+                    "to": {
+                        "startLines": "7394",
+                        "startColumns": "4",
+                        "startOffsets": "461960",
+                        "endLines": "7396",
+                        "endColumns": "24",
+                        "endOffsets": "462065"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\abbas\\AndroidStudioProjects\\Oppa\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endLines": "8",
+                        "endColumns": "12",
+                        "endOffsets": "376"
+                    },
+                    "to": {
+                        "startLines": "895",
+                        "startColumns": "4",
+                        "startOffsets": "60272",
+                        "endLines": "900",
+                        "endColumns": "12",
+                        "endOffsets": "60586"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\abbas\\.gradle\\caches\\transforms-2\\files-2.1\\a814bd133b4039435948c0667ee48966\\jetified-appcompat-resources-1.1.0\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "2,29,36,47,74",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,1702,2087,2684,4317",
+                        "endLines": "28,35,46,73,78",
+                        "endColumns": "24,24,24,24,24",
+                        "endOffsets": "1697,2082,2679,4312,4582"
+                    },
+                    "to": {
+                        "startLines": "4604,4631,4638,6788,6815",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "304406,306053,306438,427725,429358",
+                        "endLines": "4630,4637,4648,6814,6819",
+                        "endColumns": "24,24,24,24,24",
