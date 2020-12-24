@@ -70,7 +70,7 @@ class RecyclerViewDataAdapter(private val data: List<DataModel>, private val mov
 
         fun bind (dataModel: DataModel){
 
-            textView.text = dataModel.title
+            textView.text = dataModel.category
 
             recyclerView.apply {
 
@@ -81,7 +81,7 @@ class RecyclerViewDataAdapter(private val data: List<DataModel>, private val mov
 
             button.setOnClickListener {
                 val intent = Intent(itemView.context,MoreActivity::class.java)
-                intent.putExtra("category",dataModel.title)
+                intent.putExtra("category",dataModel.category)
                 intent.putExtra("id",dataModel.id)
                 itemView.context.startActivity(intent)
 
