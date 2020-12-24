@@ -1,7 +1,6 @@
 package com.example.data.mapper
 
 import com.example.data.entity.Genre
-import com.example.domain.model.GenreModel
 import javax.inject.Inject
 
 class GenreMapper @Inject constructor() {

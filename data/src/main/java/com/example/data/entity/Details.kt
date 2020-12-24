@@ -1,7 +1,6 @@
 package com.example.data.entity
 
 import com.example.domain.model.CastModel
-import com.example.domain.model.GenreModel
 import com.example.domain.model.SeasonModel
 import com.google.gson.annotations.Expose
 import com.google.gson.annotations.SerializedName

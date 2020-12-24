@@ -2,8 +2,6 @@ package com.example.data.repo
 
 import com.example.data.api.Service
 import com.example.data.mapper.GenreMapper
-import com.example.domain.model.GenreModel
-import com.example.domain.repository.GenreRepo
 import io.reactivex.rxjava3.core.Single
 import javax.inject.Inject
 
